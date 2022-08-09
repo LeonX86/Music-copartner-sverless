@@ -1,0 +1,3 @@
+[console_scripts]
+notify = notify.console:main
+

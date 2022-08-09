@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+TEST.rst
+requirements-docs.txt
+requirements-test.txt
+requirements.txt
+setup.cfg
+/Users/alisue/Code/github.com/lambdalisue/app_version/build/lib/app_version.egg-info/PKG-INFO
+/Users/alisue/Code/github.com/lambdalisue/app_version/build/lib/app_version.egg-info/SOURCES.txt
+/Users/alisue/Code/github.com/lambdalisue/app_version/build/lib/app_version.egg-info/dependency_links.txt
+/Users/alisue/Code/github.com/lambdalisue/app_version/build/lib/app_version.egg-info/top_level.txt
+/Users/alisue/Code/github.com/lambdalisue/app_version/build/lib/app_version.egg-info/zip-safe
+src/app_version/__init__.py
+src/app_version/core.py

@@ -1,0 +1,17 @@
+app_version-1.0.1.dist-info/DESCRIPTION.rst,sha256=dXBcdDxNtK84luryTY-hfFOHpKUIeSqNZF4iYzjsRoQ,2570
+app_version-1.0.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+app_version-1.0.1.dist-info/METADATA,sha256=AtqIgx58gl2hdAU4ENafTHbAAE3PIzbTtt9z7A7go2M,3556
+app_version-1.0.1.dist-info/RECORD,,
+app_version-1.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+app_version-1.0.1.dist-info/metadata.json,sha256=D-vT3xkn_Xly8chQtBRxdtglK_4vh7tHFpbP6oMnrNQ,1149
+app_version-1.0.1.dist-info/top_level.txt,sha256=6zvThZmIziO79kyE7pIAE30YJADmWwLs6RViYYpEmso,12
+app_version-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+app_version.egg-info/PKG-INFO,sha256=z36qFhG43UjMfYPmea-94gSc6z30H-kUpBqjU-uDzu0,4004
+app_version.egg-info/SOURCES.txt,sha256=arEzL4xeDuh96Zv_ZTN-OZlaZw47A8zDB24ljVuyFNI,652
+app_version.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+app_version.egg-info/top_level.txt,sha256=6zvThZmIziO79kyE7pIAE30YJADmWwLs6RViYYpEmso,12
+app_version.egg-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+app_version/__init__.py,sha256=wZvUi20dpaPcWuqpu0s4_mWNkM4gJCWXGaFvrrdEabk,310
+app_version/__pycache__/__init__.cpython-36.pyc,,
+app_version/__pycache__/core.cpython-36.pyc,,
+app_version/core.py,sha256=JAwKUZ70QY7DC4LXlb4XleaH9fSEB7xja9hCZjlLf9k,5226
