@@ -1,0 +1,49 @@
+edition: 1.0.0
+name: compoent-test
+access: '{{ access }}'
+services:
+  cn-shanghai-music-music:
+    component: devsapp/fc
+    props:
+      region: cn-shanghai
+      service:
+        logConfig:
+          enableRequestMetrics: true
+          enableInstanceMetrics: true
+          logBeginRule: None
+          project: aliyun-fc-cn-shanghai-2498d5b2-6c31-54e4-96c3-68b8984927fc
+          logstore: function-log
+        role: acs:ram::1346029083539894:role/AliyunFcDefaultRole
+        internetAccess: true
+        vpcConfig:
+          securityGroupId: sg-uf65vdosoz6udwm7ovdk
+          role: ''
+          vpcId: vpc-uf6ge18ipgwqrm41hb838
+          vSwitchIds:
+            - vsw-uf63jyaivr14tdduhslvv
+        name: music
+      function:
+        handler: index.main_handler
+        instanceType: e1
+        runtime: python3
+        timeout: 15
+        instanceConcurrency: 1
+        memorySize: 128
+        environmentVariables:
+          PATH: /var/fc/lang/nodejs12/bin
+        layers:
+          - 8c1639b249a5b5972e5eb2b41510200a#js#2
+        internetAccess: true
+        name: music
+        asyncConfiguration:
+          statefulInvocation: true
+        codeUri: ./music/music
+      triggers:
+        - name: daily
+          description: ''
+          type: timer
+          qualifier: LATEST
+          config:
+            payload: ''
+            cronExpression: CRON_TZ=Asia/Shanghai 0 0 6 * * *
+            enable: true
