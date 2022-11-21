@@ -8,7 +8,7 @@
 
 源码参考https://github.com/KotoriMinami/qinglong-sign
 
-Pycrypto装包可能会有些麻烦，建议直接上打包好的依赖层
+Pycrypto装包可能会有些麻烦，建议直接上打包好的依赖层z
 
 贴个地址 http://i7q.cn/5E4CzA
 
