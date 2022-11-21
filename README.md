@@ -5,7 +5,6 @@
 
 - 网易云音乐合伙人自动评分 ✔
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 源码参考https://github.com/KotoriMinami/qinglong-sign
 
 Pycrypto装包可能会有些麻烦，建议直接上打包好的依赖层z
